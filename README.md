@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/1100190571588489346/1442302994044686477/UTCCgXB.gif"
+  <img src="https://cdn.discordapp.com/attachments/1100190571588489346/1442302994044686477/UTCCgXB.gif?ex=6936bd16&is=69356b96&hm=7aa32a65a68d2b7e0117969d45f5da7fc1faaad29e909d55968bd743a308637c&"
        alt="BetterMint RE Banner" />
 </p>
 
@@ -19,9 +19,6 @@
   </a>
   <a href="https://github.com/BetterMint/BetterMint-RE-1">
     <img src="https://img.shields.io/github/issues/BetterMint/BetterMint-RE-1?style=flat&label=Issues" alt="Issues" />
-  </a>
-  <a href="https://github.com/BetterMint/BetterMint-RE-1">
-    <img src="https://img.shields.io/github/license/BetterMint/BetterMint-RE-1?style=flat&label=License" alt="License" />
   </a>
 </p>
 
@@ -71,11 +68,11 @@ More specifically:
    - Bypass protections cleanly
    - Can explain what the protections were doing
 
-This was originally rated:
+Originally rated:
 
 > **Difficulty:** “not that hard tbh.”
 
-So yeah, it’s meant to be accessible but not completely braindead.
+So it’s meant to be accessible but not completely braindead.
 
 ---
 
@@ -83,18 +80,12 @@ So yeah, it’s meant to be accessible but not completely braindead.
 
 The binary includes multiple layers of defense to make analysis a bit annoying, such as:
 
-- Basic **anti-analysis / anti-debug style behavior**
+- Basic **anti-analysis / anti-debug behavior**
 - **Obfuscation** around important logic and strings
 - Control-flow that **doesn’t immediately look obvious**
 - A few things that are **“not what they seem”**
 
 Nothing here is meant to be insane, but it’s closer to a **practical beginner–intermediate RE challenge** than a toy example.
-
-If you’re new, treat this as a playground to:
-
-- Load it up in your favorite tools (IDA, Ghidra, Binary Ninja, x64dbg, etc.)
-- Step around, label functions, follow the flow
-- Figure out **where** and **how** the flag is checked
 
 ---
 
@@ -103,21 +94,32 @@ If you’re new, treat this as a playground to:
 1. **Download** `BetterMint_RE.exe` from the [Challenge release](https://github.com/BetterMint/BetterMint-RE-1/releases/tag/Challenge).  
 2. **Run it in a VM / safe environment** (standard RE hygiene).  
 3. **Poke it:**
-   - Try random input
-   - See how it behaves
+   - Try random input  
+   - See how it behaves  
    - Note any weird behavior, crashes, or messages  
 4. **Load into a disassembler / debugger:**
    - Look for input handling and flag verification logic  
    - Rename functions, reconstruct what’s happening  
 5. **Recover the flag** in the format `BETTERMINT{...}`.  
 6. **Patch it** so the binary accepts your flag:
-   - Modify conditional jumps
-   - NOP out checks
+   - Modify conditional jumps  
+   - NOP out checks  
    - Or do something more creative  
 7. **Only then** peek at the source in this repo to:
-   - Confirm your understanding
-   - See how the protections were written
-   - Learn how you might improve / break them further
+   - Confirm your understanding  
+   - See how the protections were written  
+   - Learn how you might improve / break them further  
+
+---
+
+## 🏗️ Building It Yourself
+
+If you want to build the challenge from source, follow:
+
+📄 **Build Instructions:**  
+https://github.com/BetterMint/BetterMint-RE-1/blob/main/BUILD_INSTRUCTIONS.md
+
+This covers the exact steps and environment needed to reproduce the binary.
 
 ---
 
