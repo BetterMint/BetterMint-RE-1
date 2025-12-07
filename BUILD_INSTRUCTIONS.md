@@ -11,7 +11,7 @@
 
 2. Navigate to the project directory:
    ```cmd
-   cd "C:\Users\Administrator\Downloads\RE Challenge"
+   cd "C:\Users\(Username)\Downloads\RE Challenge"
    ```
 
 3. Run the build script:
@@ -59,7 +59,6 @@ The string packer will:
 
 After building, `BetterMint_RE.exe` will have:
 - All strings obfuscated as byte arrays
-- Strings not visible in plain text searches
 - Random variable names for packed strings
 - Full anti-debug and anti-VM protections
 
@@ -70,5 +69,6 @@ To test the obfuscated version:
 BetterMint_RE.exe
 ```
 
-The output should be readable (strings are unpacked at runtime), but the strings won't be visible in the binary when analyzed with tools like `strings.exe` or hex editors.
+The output should be readable (strings are unpacked at runtime), but the strings won't be visible in the binary when analyzed with tools string searches or hex editors.
+
 
