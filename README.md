@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/1100190571588489346/1442302994044686477/UTCCgXB.gif?ex=6936bd16&is=69356b96&hm=7aa32a65a68d2b7e0117969d45f5da7fc1faaad29e909d55968bd743a308637c&"
+  <img src="https://github.com/BetterMint/BetterMint/blob/main/generated_video%20(1).gif?raw=true"
        alt="BetterMint RE Banner" />
 </p>
 
