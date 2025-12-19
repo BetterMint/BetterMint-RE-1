@@ -150,7 +150,7 @@ If you want:
 join the community here:
 
 👉 **BetterMint Discord**  
-https://discord.gg/bettermint-development-1098267851732815932  
+https://discord.gg/basic
 
 Watch for the `@Reverse Engineer This` ping for future events.
 
